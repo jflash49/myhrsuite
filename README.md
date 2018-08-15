@@ -1,1 +1,1 @@
-# myhrsuite
+# MyHr Suite
