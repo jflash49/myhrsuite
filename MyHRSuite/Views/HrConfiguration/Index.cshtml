@@ -1,0 +1,197 @@
+﻿@{
+    ViewBag.Title = "Employee Configuration";
+}
+
+
+<div class="col-sm-12 mb-4">
+    <div class="card-group">
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-briefcase"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.FuncSit</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Functional Situations</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-location-pin"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Posts</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Posts</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-tag"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Benefits</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Benefits</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-calendar"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Leave</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Leave</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-12 mb-4">
+    <div class="card-group">
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-check"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Entitlements</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Entitlements</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-plus"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">
+                        @ViewBag.overall.MedicalInfo
+                    </span>
+                </div>
+                <small class="text-muted text-uppercase font-weight-bold">Medical Info </small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-angle-double-down"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.MedicalAdd</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Medical + </small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-user"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Beneficiaries</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Beneficiaries</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="col-sm-12 mb-4">
+    <div class="card-group">
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-star"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Awards</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold"> Awards</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-alert"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.DisciplinaryAction</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Disciplinary Actions</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa fa-users"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Unions</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Unions</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-file"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.overall.Attachments</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Attachments</small>
+                <div class="progress progress-xs mt-3 mb-0 bg-flat-color-1" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+
+
+        </div>
+</div>

@@ -1,0 +1,6 @@
+C:\Users\jevon.butler.HCMES-MOBILE-6\source\repos\MyHRSuite\MyHRSuite.Objects\bin\Debug\MyHRSuite.Objects.dll
+C:\Users\jevon.butler.HCMES-MOBILE-6\source\repos\MyHRSuite\MyHRSuite.Objects\bin\Debug\MyHRSuite.Objects.pdb
+C:\Users\jevon.butler.HCMES-MOBILE-6\source\repos\MyHRSuite\MyHRSuite.Objects\obj\Debug\MyHRSuite.Objects.csprojResolveAssemblyReference.cache
+C:\Users\jevon.butler.HCMES-MOBILE-6\source\repos\MyHRSuite\MyHRSuite.Objects\obj\Debug\MyHRSuite.Objects.csproj.CoreCompileInputs.cache
+C:\Users\jevon.butler.HCMES-MOBILE-6\source\repos\MyHRSuite\MyHRSuite.Objects\obj\Debug\MyHRSuite.Objects.dll
+C:\Users\jevon.butler.HCMES-MOBILE-6\source\repos\MyHRSuite\MyHRSuite.Objects\obj\Debug\MyHRSuite.Objects.pdb

@@ -1,0 +1,56 @@
+﻿
+
+@{
+    ViewBag.Title = "People";
+}
+
+
+<div class="col-sm-12 mb-4">
+    <div class="card-group">
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-money"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.people.Trn</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">TRN</small>
+                <div id="contacts" class="progress progress-xs mt-3 mb-0 bg-flat-color-4" style="width: 100%; height: 5px;"></div>
+            </div>
+        </div>
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-user"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.people.Gender</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">Gender</small>
+                <div id="address" class="progress progress-xs mt-3 mb-0 bg-flat-color-2" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+
+
+        <div class="card col-md-6 no-padding ">
+            <div class="card-body">
+                <div class="h1 text-muted text-right mb-4">
+                    <i class="fa ti-lock"></i>
+                </div>
+
+                <div class="h4 mb-0">
+                    <span class="count">@ViewBag.people.Nis</span>
+                </div>
+
+                <small class="text-muted text-uppercase font-weight-bold">NIS</small>
+                <div id="documents" class="progress progress-xs mt-3 mb-0 bg-flat-color-3" style="width: 40%; height: 5px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
